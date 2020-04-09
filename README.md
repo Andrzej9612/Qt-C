@@ -8,6 +8,8 @@ Jest możliwość sterowania ręcznego procesem poprzez regulację przepływu ci
 Na wykresie za pomocą wyboru odpowiedniego checkbox (Temperatura, Wysokość) przedstawiane są zmiany temperatury lub wysokości cieczy w zbiorniku. Rysowana jest wartość aktualna jak i wartość zadana do regulacji)
 W sekcji „Monitoring” wyświetlane są wartości temperatury i wysokości cieczy w zbiorniku oraz po przekroczeniu wartości dopuszczalnych temperatury lub wysokości zaczynają migać diody kontrolne i dostępny jest przycisk, który wyłącz kontrolkę i powoduje powrót do wartości początkowych w zbiorniku.
 Zaimplementowane są również dwa regulatory PID regulujące temperaturę i wysokość cieczy w zbiorniku, z możliwością zmiany nastaw oraz wartości zadanych. Jest również zaimplementowany regulator z algorytmem LQR, który reguluje obie wielkości jednocześnie. Regulatory włącza się odpowiednimi checkboxes.
+
+
 ENG 
 This is a project that simulates the flow of liquid through a tank. 
 The liquid is supplied by three valves: hot water, cold water and interference, with a specific, constant temperature, while the flow is free.
